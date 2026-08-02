@@ -1,4 +1,4 @@
-number = 3
+number = int(input("Enter any number: "))
 steps = 0
 
 while number > 1:
@@ -7,6 +7,4 @@ while number > 1:
     else:
         number = number * 3 + 1
     steps += 1
-
 print(f"Total steps: {steps}")
-
